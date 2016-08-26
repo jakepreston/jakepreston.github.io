@@ -1,47 +1,66 @@
 /*
-	Multiverse by HTML5 UP
+	Stellar by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Button */
+/* Type */
 
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"],
-	button,
-	.button {
-		border: solid 2px #36383c;
+	body {
+		color: #ffffff;
 	}
 
-		input[type="submit"].special,
-		input[type="reset"].special,
-		input[type="button"].special,
-		button.special,
+/* Button */
+
+	.button {
+		position: relative;
+		border: solid 1px !important;
+	}
+
 		.button.special {
+			border: none !important;
+		}
+
+/* Icon */
+
+	.icon.major {
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+	}
+
+		.icon.major:before {
+			font-size: 4em;
 			border: 0;
 		}
 
-/* Panel */
+/* Spotlight */
 
-	.panel {
-		background: #242629;
-		display: none;
+	.spotlight .image {
+		position: relative;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
 	}
 
-		.panel.active {
-			display: block;
+		.spotlight .image img {
+			position: relative;
+			-ms-behavior: url("assets/js/ie/PIE.htc");
 		}
 
-		.panel > .closer:before {
-			content: '\00d7';
-			font-size: 42px;
-		}
+/* Features */
+
+	.features li {
+		width: 29%;
+	}
+
+/* Footer */
+
+	#footer > * {
+		width: 50%;
+		margin-left: 0;
+	}
 
 /* Main */
 
-	#main .thumb > h2 {
-		text-align: center;
+	#main > .main > .image.main:first-child {
+		margin-top: 0;
+		margin-left: 0;
 		width: 100%;
-		left: 0;
 	}

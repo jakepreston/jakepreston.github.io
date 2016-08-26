@@ -1,12 +1,12 @@
-Multiverse by HTML5 UP
+Stellar by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
-Say hello to Multiverse, a slick, one-page gallery design with a fully functional lightbox
-(courtesy of my Poptrox plugin for jQuery) and a custom, reusable "panel" system (click the
-"About" button in the lower right to see what I mean). Had a ton of fun putting this one
-together, and I hope you have as much fun working with it :)
+Say hello to Stellar, a slick little one-pager with a super vibrant color palette (which
+I guess you can always tone down if it's a little too vibrant for you), a "sticky" in-page
+nav bar (powered by my Scrollex plugin), a separate generic page template (just in case
+you need one), and an assortment of pre-styled elements.
 
 Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
 you can use for pretty much whatever.
@@ -28,6 +28,7 @@ Credits:
 	Other:
 		jQuery (jquery.com)
 		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		Misc. Sass functions (@HugoGiraudel)
+		CSS3 Pie (css3pie.com)
 		Respond.js (j.mp/respondjs)
+		Scrollex (@ajlkn)
 		Skel (skel.io)

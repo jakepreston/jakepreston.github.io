@@ -1,54 +1,20 @@
 // Misc.
 	$misc: (
-		z-index-base:		10000,
-		main-layout:		(
-			default:		(
-				rows:		2,
-				columns:	4,
-				pad:		0.5,
-				minHeight:	20em
-			),
-			xlarge:			(
-				rows:		2,
-				columns:	3,
-				pad:		0.5,
-				minHeight:	20em
-			),
-			large:			(
-				rows:		2,
-				columns:	2,
-				pad:		0.5,
-				minHeight:	20em
-			),
-			medium:			(
-				rows:		3,
-				columns:	2,
-				pad:		0.5,
-				minHeight:	18em
-			),
-			xsmall:			(
-				rows:		2,
-				columns:	1,
-				pad:		0.5,
-				minHeight:	18em
-			)
-		)
+		z-index-base:		10000
 	);
 
 // Duration.
 	$duration: (
-		transition:			0.2s,
-		header:				1s,
-		panel:				0.5s,
-		modal:				0.5s,
-		thumb:				0.15s
+		transition:			0.2s
 	);
 
 // Size.
 	$size: (
+		border-radius:		8px,
+		border-radius-main:	0.25em,
 		element-height:		2.75em,
 		element-margin:		2em,
-		header:				4em
+		inner:				64em
 	);
 
 // Font.
@@ -56,26 +22,39 @@
 		family:				('Source Sans Pro', Helvetica, sans-serif),
 		family-fixed:		('Courier New', monospace),
 		weight:				300,
-		weight-bold:		300,
-		weight-extrabold:	400,
-		kerning:			0.025em,
-		kerning-alt:		0.1em
+		weight-bold:		400,
+		letter-spacing:		-0.025em
 	);
 
 // Palette.
 	$palette: (
-		bg:					#242629,
-		bg-alt:				#1f2224,
-		bg-overlay:			transparentize(#242629, 0.75),
-		bg-overlay-alt:		transparentize(#242629, 0.5),
-		bg-ie-overlay:		transparentize(#242629, 0.45),
-		bg-ie-overlay-alt:	transparentize(#242629, 0.2),
-		fg:					#a0a0a1,
+		bg:					#935d8c,
+		fg:					rgba(255,255,255,0.65),
 		fg-bold:			#ffffff,
-		fg-medium:			#707071,
-		fg-light:			#505051,
-		border:				#36383c,
-		border-bg:			#34363b,
-		border-bg-alt:		#44464b,
-		accent1:			#34a58e
+		fg-light:			rgba(255,255,255,0.5),
+		border:				rgba(255,255,255,0.35),
+		border-bg:			rgba(255,255,255,0.075),
+		border2:			rgba(255,255,255,0.75),
+		border2-bg:			rgba(255,255,255,0.2),
+
+		invert: (
+			bg:				#ffffff,
+			bg-alt:			#f7f7f7,
+			fg:				#636363,
+			fg-bold:		#636363,
+			fg-light:		rgba(99,99,99,0.25),
+			border:			#dddddd,
+			border-bg:		rgba(222,222,222,0.25),
+			border2:		#dddddd,
+			border2-bg:		rgba(222,222,222,0.5),
+		),
+
+		accent:				#8cc9f0,
+		accent1:			#efa8b0,
+		accent2:			#c79cc8,
+		accent3:			#a89cc8,
+		accent4:			#9bb2e1,
+		accent5:			#8cc9f0,
+		bg1:				#e37682,
+		bg2:				#5f4d93
 	);
