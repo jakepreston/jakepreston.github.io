@@ -2822,15 +2822,6 @@
 	}
 
 
-	#iconleft{
-		background-image:url("http://www.freeiconspng.com/uploads/high-school-icon-png-8.png");
-	}
-
-	#iconcenter{
-		background-image: url("https://image.freepik.com/free-icon/graduation-cap-variant_318-47155.png");
-	}
-	#iconright{
-		background-image: url("");
 	}
 
 /* Features */
@@ -2853,6 +2844,12 @@
 		padding: 0;
 		list-style: none;
 	}
+
+		.aspan{
+			display: inline-block;
+			margin: auto;
+		}
+
 
 		.features li {
 			width: calc(33.33333% - 2em);
