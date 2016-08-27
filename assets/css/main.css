@@ -2851,7 +2851,13 @@
 			width: 400px;
 
 		}
-
+		#aspanleft{
+			margin-right:5%;
+		}
+		#aspanright{
+			margin-left: 5%;
+			margin-bottom: 5%;
+		}
 
 		.features li {
 			width: calc(33.33333% - 2em);
